@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sample/src/ui/movie_list.dart';
+import 'package:sample/src/ui/character_list.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,8 +11,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.dark(),
-      home: Scaffold(
-        body: MovieList(),
+      home: const Scaffold(
+        body: CharactersList(),
       ),
     );
   }
